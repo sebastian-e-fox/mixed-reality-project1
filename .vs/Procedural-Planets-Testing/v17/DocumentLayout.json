@@ -3,11 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|c:\\users\\35ozf\\documents\\y3s2\\embodied play\\unity projects\\procedural-planets-testing\\assets\\terrainface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|c:\\users\\35ozf\\documents\\y3s2\\embodied play\\unity projects\\procedural-planets-testing\\assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|c:\\users\\35ozf\\documents\\y3s2\\embodied play\\unity projects\\procedural-planets-testing\\assets\\simplecharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\simplecharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\TestProject\\Assets\\Scripts\\HeadBobController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\assets\\flyingcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\flyingcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\assets\\terrainface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\terrainface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|c:\\users\\35ozf\\documents\\y3s2\\embodied play\\unity projects\\procedural-planets-testing\\assets\\planet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\assets\\planet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\planet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,6 +38,57 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\PlayerMovement.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:24:45.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HeadBobController.cs",
+              "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\TestProject\\Assets\\Scripts\\HeadBobController.cs",
+              "RelativeDocumentMoniker": "..\\TestProject\\Assets\\Scripts\\HeadBobController.cs",
+              "ToolTip": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\TestProject\\Assets\\Scripts\\HeadBobController.cs",
+              "RelativeToolTip": "..\\TestProject\\Assets\\Scripts\\HeadBobController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwDMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:23:01.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimpleCharacterController.cs",
+              "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\SimpleCharacterController.cs",
+              "RelativeDocumentMoniker": "Assets\\SimpleCharacterController.cs",
+              "ToolTip": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\SimpleCharacterController.cs",
+              "RelativeToolTip": "Assets\\SimpleCharacterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:19:11.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FlyingCamera.cs",
+              "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\FlyingCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\FlyingCamera.cs",
+              "ToolTip": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\FlyingCamera.cs",
+              "RelativeToolTip": "Assets\\FlyingCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:08:44.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TerrainFace.cs",
               "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\TerrainFace.cs",
               "RelativeDocumentMoniker": "Assets\\TerrainFace.cs",
@@ -30,12 +96,11 @@
               "RelativeToolTip": "Assets\\TerrainFace.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:59:49.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T12:59:49.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Planet.cs",
               "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\Planet.cs",
               "RelativeDocumentMoniker": "Assets\\Planet.cs",
@@ -43,8 +108,7 @@
               "RelativeToolTip": "Assets\\Planet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:59:40.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T12:59:40.738Z"
             }
           ]
         }
