@@ -3,10 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\TestProject\\Assets\\Scripts\\GazeDetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|c:\\users\\35ozf\\documents\\y3s2\\embodied play\\unity projects\\procedural-planets-testing\\assets\\navmeshtriggerbaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\navmeshtriggerbaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|c:\\users\\35ozf\\documents\\y3s2\\embodied play\\unity projects\\procedural-planets-testing\\assets\\npclogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\assets\\npclogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\npclogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GazeDetection.cs",
-              "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\TestProject\\Assets\\Scripts\\GazeDetection.cs",
-              "RelativeDocumentMoniker": "..\\TestProject\\Assets\\Scripts\\GazeDetection.cs",
-              "ToolTip": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\TestProject\\Assets\\Scripts\\GazeDetection.cs",
-              "RelativeToolTip": "..\\TestProject\\Assets\\Scripts\\GazeDetection.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAAFoAAAAjAAAAAAAAAA==",
+              "Title": "NavMeshTriggerBaker.cs",
+              "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\NavMeshTriggerBaker.cs",
+              "RelativeDocumentMoniker": "Assets\\NavMeshTriggerBaker.cs",
+              "ToolTip": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\NavMeshTriggerBaker.cs",
+              "RelativeToolTip": "Assets\\NavMeshTriggerBaker.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T10:14:26.35Z",
+              "WhenOpened": "2025-06-05T10:32:16.65Z",
               "EditorCaption": ""
             },
             {
@@ -40,7 +41,7 @@
               "RelativeDocumentMoniker": "Assets\\NPCLogic.cs",
               "ToolTip": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\NPCLogic.cs",
               "RelativeToolTip": "Assets\\NPCLogic.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T10:10:18.124Z",
               "EditorCaption": ""
