@@ -5,25 +5,19 @@ public class EnemySpawner : MonoBehaviour
     public GameObject[] enemyPrefabs;    // Your 3 enemy prefabs
     public GameObject outerSphere;       // Reference to outer sphere GameObject
     public GameObject innerSphere;       // Reference to inner (no-spawn zone) sphere
-    public int enemiesToSpawn = 10;
-    public float spawnY = -1.295f;
-
-    void Start()
-    {
-        SpawnEnemies();
-    }
-
-    void SpawnEnemies()
+    public Transform enemiesParent;
+    public float spawnY;
+    public void SpawnEnemies(int x)
     {
         Vector3 center = outerSphere.transform.position;
         float outerRadius = outerSphere.transform.localScale.x * 0.5f;
         float innerRadius = innerSphere.transform.localScale.x * 0.5f;
 
-        for (int i = 0; i < enemiesToSpawn; i++)
+        for (int i = 0; i < x; i++)
         {
             Vector3 spawnPos = GetRandomPointInShell(center, innerRadius, outerRadius);
             GameObject prefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
-            Instantiate(prefab, spawnPos, Quaternion.identity);
+            Instantiate(prefab, spawnPos, Quaternion.identity, enemiesParent);
             EnemyManager.EnemySpawned();
         }
     }

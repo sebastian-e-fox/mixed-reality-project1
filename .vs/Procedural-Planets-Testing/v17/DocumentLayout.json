@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|c:\\users\\35ozf\\documents\\y3s2\\embodied play\\unity projects\\procedural-planets-testing\\assets\\npclogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\assets\\npclogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\npclogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|c:\\users\\35ozf\\documents\\y3s2\\embodied play\\unity projects\\procedural-planets-testing\\assets\\progressbartimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\progressbartimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\assets\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\assets\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|c:\\users\\35ozf\\documents\\y3s2\\embodied play\\unity projects\\procedural-planets-testing\\assets\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|c:\\users\\35ozf\\documents\\y3s2\\embodied play\\unity projects\\procedural-planets-testing\\assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{739D4045-D0B1-D8DF-A78C-E19DB579E24A}|Assembly-CSharp.csproj|C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\assets\\navmeshtriggerbaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,24 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "ProgressBarTimer.cs",
+              "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\ProgressBarTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\ProgressBarTimer.cs",
+              "ToolTip": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\ProgressBarTimer.cs",
+              "RelativeToolTip": "Assets\\ProgressBarTimer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T10:34:10.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EnemyManager.cs",
               "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\EnemyManager.cs",
               "RelativeDocumentMoniker": "Assets\\EnemyManager.cs",
               "ToolTip": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\EnemyManager.cs",
               "RelativeToolTip": "Assets\\EnemyManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T09:57:08.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\EnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:04:29.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CameraControl.cs",
               "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\CameraControl.cs",
               "RelativeDocumentMoniker": "Assets\\CameraControl.cs",
@@ -60,20 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\EnemySpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\EnemySpawner.cs",
-              "ToolTip": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\EnemySpawner.cs",
-              "RelativeToolTip": "Assets\\EnemySpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T12:04:29.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "NavMeshTriggerBaker.cs",
               "DocumentMoniker": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\NavMeshTriggerBaker.cs",
               "RelativeDocumentMoniker": "Assets\\NavMeshTriggerBaker.cs",
@@ -81,8 +98,7 @@
               "RelativeToolTip": "Assets\\NavMeshTriggerBaker.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T10:32:16.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T10:32:16.65Z"
             },
             {
               "$type": "Document",
@@ -92,7 +108,7 @@
               "RelativeDocumentMoniker": "Assets\\NPCLogic.cs",
               "ToolTip": "C:\\Users\\35ozf\\Documents\\Y3S2\\Embodied Play\\Unity Projects\\Procedural-Planets-Testing\\Assets\\NPCLogic.cs",
               "RelativeToolTip": "Assets\\NPCLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T10:10:18.124Z",
               "EditorCaption": ""

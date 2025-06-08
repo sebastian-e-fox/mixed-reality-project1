@@ -22,6 +22,7 @@ public class NPCLogic : MonoBehaviour
     private void Awake()
     {
         target = GameObject.Find("Target Location").transform;
+        StartCoroutine(StuckEnemy());
     }
 
     // Update is called once per frame
@@ -46,6 +47,12 @@ public class NPCLogic : MonoBehaviour
     public void Shot()
     {
 
+    }
+
+    IEnumerator StuckEnemy()
+    {
+        yield return new WaitForSeconds(25);
+        Destroy();
     }
 
 }
