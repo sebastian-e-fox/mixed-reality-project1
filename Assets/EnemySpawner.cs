@@ -24,6 +24,7 @@ public class EnemySpawner : MonoBehaviour
             Vector3 spawnPos = GetRandomPointInShell(center, innerRadius, outerRadius);
             GameObject prefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
             Instantiate(prefab, spawnPos, Quaternion.identity);
+            EnemyManager.EnemySpawned();
         }
     }
 

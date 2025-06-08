@@ -3,7 +3,7 @@ using UnityEngine;
 public class CameraControl : MonoBehaviour
 {
     public Transform playerBody;
-    public float mouseSensitivity = 100f;
+    public float mouseSensitivity = 400f;
 
     float xRotation = 0f;
 

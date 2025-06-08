@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &5760268080697514438
+--- !u!1001 &5698844828150128331
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1899908960044228, guid: 9c187e33dc2eede42964abc000991d9d, type: 3}
       propertyPath: m_Name
-      value: SM_Chr_ScifiWorlds_SpaceSuit_Alien_Female_01 Variant
+      value: Enemy 1
       objectReference: {fileID: 0}
     - target: {fileID: 4916719530990758, guid: 9c187e33dc2eede42964abc000991d9d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -66,55 +66,32 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1899908960044228, guid: 9c187e33dc2eede42964abc000991d9d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5449909271884792559}
+      addedObject: {fileID: 7716856061001097327}
     - targetCorrespondingSourceObject: {fileID: 1899908960044228, guid: 9c187e33dc2eede42964abc000991d9d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 9135290129123946534}
+      addedObject: {fileID: 8415148354017659289}
     - targetCorrespondingSourceObject: {fileID: 1899908960044228, guid: 9c187e33dc2eede42964abc000991d9d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 9135997971884354188}
+      addedObject: {fileID: 6958319640298665917}
+    - targetCorrespondingSourceObject: {fileID: 1899908960044228, guid: 9c187e33dc2eede42964abc000991d9d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3007892704267098517}
     - targetCorrespondingSourceObject: {fileID: 1402771383178558, guid: 9c187e33dc2eede42964abc000991d9d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5782910717900747291}
+      addedObject: {fileID: 1508998388984236280}
   m_SourcePrefab: {fileID: 100100000, guid: 9c187e33dc2eede42964abc000991d9d, type: 3}
---- !u!1 &5761351443651087608 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1402771383178558, guid: 9c187e33dc2eede42964abc000991d9d, type: 3}
-  m_PrefabInstance: {fileID: 5760268080697514438}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &5782910717900747291
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5761351443651087608}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: aaa9d59acbefac54a991bc1c9594b98d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!1 &5761839751054515458 stripped
+--- !u!1 &5697302947799407119 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1899908960044228, guid: 9c187e33dc2eede42964abc000991d9d, type: 3}
-  m_PrefabInstance: {fileID: 5760268080697514438}
+  m_PrefabInstance: {fileID: 5698844828150128331}
   m_PrefabAsset: {fileID: 0}
---- !u!195 &5449909271884792559
+--- !u!195 &7716856061001097327
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5761839751054515458}
+  m_GameObject: {fileID: 5697302947799407119}
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
@@ -127,30 +104,32 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0.8
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &9135290129123946534
+--- !u!114 &8415148354017659289
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5761839751054515458}
+  m_GameObject: {fileID: 5697302947799407119}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9125e57b5e9de274598411b1b41e8ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _agent: {fileID: 5449909271884792559}
+  _agent: {fileID: 7716856061001097327}
   target: {fileID: 0}
---- !u!54 &9135997971884354188
+  closeDistance: 2.5
+  closeToTarget: 0
+--- !u!54 &6958319640298665917
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5761839751054515458}
+  m_GameObject: {fileID: 5697302947799407119}
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
@@ -171,3 +150,50 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3007892704267098517
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5697302947799407119}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.9643704, z: 1}
+  m_Center: {x: 0, y: 0.9567364, z: 0}
+--- !u!1 &5697800085242055669 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1402771383178558, guid: 9c187e33dc2eede42964abc000991d9d, type: 3}
+  m_PrefabInstance: {fileID: 5698844828150128331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1508998388984236280
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5697800085242055669}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aaa9d59acbefac54a991bc1c9594b98d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
