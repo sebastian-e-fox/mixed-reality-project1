@@ -12,6 +12,9 @@ public class NPCLogic : MonoBehaviour
     public Transform target;
     public float closeDistance = 2.5f;
     public bool closeToTarget = false;
+    public bool death = false;
+
+    private Animator _anim;
 
     // Start is called before the first frame update
     void Start()
@@ -22,13 +25,21 @@ public class NPCLogic : MonoBehaviour
     private void Awake()
     {
         target = GameObject.Find("Target Location").transform;
+        _anim = GetComponent<Animator>();
         StartCoroutine(StuckEnemy());
     }
 
     // Update is called once per frame
     void Update()
     {
-        _agent.SetDestination(target.position);
+        if (!death)
+        {
+            _agent.SetDestination(target.position);
+        }
+        /* else // TESTING
+        {
+            Shot();
+        } */
 
         if (Vector3.Distance(transform.position, target.position) < closeDistance)
         {
@@ -46,13 +57,21 @@ public class NPCLogic : MonoBehaviour
 
     public void Shot()
     {
-
+        death = true;
+        NavMeshAgent agent = GetComponent<NavMeshAgent>();
+        agent.enabled = false;
+        _anim.SetBool("Death", true);
+        StartCoroutine(DeathWait());
     }
 
     IEnumerator StuckEnemy()
     {
-        yield return new WaitForSeconds(25);
+        yield return new WaitForSeconds(30);
         Destroy();
     }
-
+    IEnumerator DeathWait()
+    {
+        yield return new WaitForSeconds(7);
+        Destroy();
+    }
 }

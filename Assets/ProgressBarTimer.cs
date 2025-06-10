@@ -4,6 +4,7 @@ using System.Collections;
 
 public class ProgressBarTimer : MonoBehaviour
 {
+    public GameObject fullProgressBar;
     public Slider progressBar;
     public Text percentageText;
     public float fillDuration = 120f; // 2 minutes in seconds
@@ -12,18 +13,27 @@ public class ProgressBarTimer : MonoBehaviour
     private bool hasCompleted = false;
     private bool isPaused = false;
 
+    public bool startEvent = false;
+
     void Start()
     {
         progressBar.minValue = 0f;
         progressBar.maxValue = 1f;
         progressBar.value = 0f;
 
+        fullProgressBar.SetActive(false);
+
         // StartCoroutine(RandomPauseRoutine()); // starts a network pause...
     }
 
     void Update()
     {
-        if (!hasCompleted && !isPaused)
+        if (startEvent)
+        {
+            fullProgressBar.SetActive(true);
+        }
+
+        if (!hasCompleted && !isPaused && startEvent)
         {
             elapsedTime += Time.deltaTime;
             float progress = Mathf.Clamp01(elapsedTime / fillDuration);

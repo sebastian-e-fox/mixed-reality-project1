@@ -664,6 +664,56 @@ CapsuleCollider:
   m_Height: 0.00000025331974
   m_Direction: 0
   m_Center: {x: -0.00000012665987, y: 0, z: 0}
+--- !u!1 &185725003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 185725004}
+  - component: {fileID: 185725005}
+  m_Layer: 0
+  m_Name: ProgressBarManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &185725004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185725003}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1078.2705, y: -490.83813, z: 20.538618}
+  m_LocalScale: {x: 2.0231824, y: 2.0231824, z: 2.0231824}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1523294138}
+  m_Father: {fileID: 369010840}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &185725005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185725003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5f91ae85ebf6f4188dd82c7afec75f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fullProgressBar: {fileID: 1523294137}
+  progressBar: {fileID: 1523294139}
+  percentageText: {fileID: 1927614377}
+  fillDuration: 120
+  startEvent: 0
 --- !u!4 &194691199 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4187624709412084, guid: 5f11ad0d91acef04ba1e9266add0392f, type: 3}
@@ -1324,9 +1374,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 833661340}
-  - {fileID: 1523294138}
-  - {fileID: 1927614376}
-  - {fileID: 1821372079}
+  - {fileID: 185725004}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4848,7 +4896,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1523294138}
   - component: {fileID: 1523294139}
-  - component: {fileID: 1523294140}
   m_Layer: 5
   m_Name: ProgressBar
   m_TagString: Untagged
@@ -4863,19 +4910,21 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523294137}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10.151639}
+  m_LocalScale: {x: 0.49427083, y: 0.49427083, z: 0.49427083}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 403894537}
   - {fileID: 218165960}
   - {fileID: 149507670}
-  m_Father: {fileID: 369010840}
+  - {fileID: 1927614376}
+  - {fileID: 1821372079}
+  m_Father: {fileID: 185725004}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -132}
+  m_AnchoredPosition: {x: 532.95764, y: 444.36322}
   m_SizeDelta: {x: 1004.046, y: 220.49597}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1523294139
@@ -4929,21 +4978,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1523294140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1523294137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e5f91ae85ebf6f4188dd82c7afec75f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  progressBar: {fileID: 1523294139}
-  percentageText: {fileID: 1927614377}
-  fillDuration: 120
 --- !u!1001 &1581607117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5395,16 +5429,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821372078}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 369010840}
+  m_Father: {fileID: 1523294138}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 314.09995}
+  m_AnchoredPosition: {x: 0, y: -94.08981}
   m_SizeDelta: {x: 461.284, y: 107.871}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1821372080
@@ -5700,16 +5734,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927614375}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 369010840}
+  m_Father: {fileID: 1523294138}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 408.49994}
+  m_AnchoredPosition: {x: 0, y: 0.31018066}
   m_SizeDelta: {x: 461.284, y: 107.871}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1927614377

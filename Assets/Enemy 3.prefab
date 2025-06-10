@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1361233379365956, guid: ab196ffc9d9b65e4693b15051e4e10dd, type: 3}
       propertyPath: m_Name
-      value: SM_Chr_ScifiWorlds_AlienSpikes_01 Variant
+      value: Enemy 3
       objectReference: {fileID: 0}
     - target: {fileID: 4255123591507102, guid: ab196ffc9d9b65e4693b15051e4e10dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -139,7 +139,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
